@@ -1,6 +1,6 @@
 import styles from './styles.module.scss'
 import Image from 'next/image'
-import logo from '../../../public/images/logov.png'
+import logo from '../../../public/images/logodev2.png'
 import { ActiveLink } from '../ActiveLink';
 
 
