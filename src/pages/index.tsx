@@ -36,22 +36,23 @@ export default function Home({ content }: contentProps) {
   return (
     <>
       <Head>
-        <title>Apaixonado por tecnologia</title>
+        <title>Low-Carb - Dietas Saudaveis</title>
       </Head>
       <main className={styles.container}>
         <div className={styles.containerHeader}>
           <section className={styles.ctaText}>
             <h1>{content.title}</h1>
             <span>{content.sub_title}</span>
-            <a href={content.link_action}>
+            
+            {/* <a href={content.link_action}>
               <button>
                 COMEÇAR AGORA!
               </button>
-            </a>           
+            </a>    */}        
           </section>
 
           <img
-              src='/images/banner-conteudos.png'
+              src='/images/l3.jpg'
               alt='Conteudos home'
           />
         </div>
@@ -86,9 +87,9 @@ export default function Home({ content }: contentProps) {
         </div>
 
         <div className={styles.footer}>
-          <Image src={techsImage} alt='Tecnologias' />
-          <h2>Mais de <span className={styles.alunos}>15 mil</span> já levaram sua carreira ao próximo nivel. Seja mais um a completar este time de vencedores!</h2>
-          <span>E você vai perder esta oportunidade de evoluir?</span>
+          {/* <Image src={techsImage} alt='Tecnologias' /> */}
+          <h2>Segundo levantamentos realizados mais de <span className={styles.alunos}>980%</span> de pessoas já mudaram sua qualidade de vida com uma alimentação saudavel. Seja mais um a alcancar este objetivo!</h2>
+          <span>Não perca esta oportunidade! Procure um profissional qualificado e incie ja sua dieta Low Carb.</span>
           <a href={content.link_action}>
             <button>INICIAR AGORA</button>
           </a>
